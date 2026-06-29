@@ -37,14 +37,25 @@ legend {
 }
 
 fieldset label {
-    font-size: 20px;
-    margin-right: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 32px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-fieldset input[type='radio'] {
-    width: 32px;
-    height: 32px;
-    margin-right: 12px;
+fieldset input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 button[type='submit'] {
